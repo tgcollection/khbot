@@ -8,7 +8,8 @@ BOT_TOKEN = '7945088452:AAFQr_MlSonhEIeBQ6SJbd5Ob9JdiO7H_YU'
 last_welcome_message = {}
 
 async def welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    # Check if the update is for a new chat member
+    print(f"Received update: {update}")  # Debug print to check if the update is being received
+
     if update.chat_member.new_chat_members:
         chat_id = update.chat_member.chat.id  # Get chat_id
 
