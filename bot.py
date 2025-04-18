@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ApplicationBuilder, ChatMemberHandler, ContextTypes
 
-BOT_TOKEN = 'YOUR_BOT_TOKEN'
+BOT_TOKEN = '7945088452:AAFQr_MlSonhEIeBQ6SJbd5Ob9JdiO7H_YU'
 
 # Dictionary to store last welcome message ID per chat
 last_welcome_message = {}
